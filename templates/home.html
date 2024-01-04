@@ -108,7 +108,7 @@
         <input type="submit" value="Obtenir des recommandations">
     </form>
     {% if recommendations is not none %}
-        <h2>Recommandations pour {{ movie_title }} :</h2>
+        <h2>Recommandations Modified pour {{ movie_title }} :</h2>
         <div class="recommendation-container">
             {% for index, row in recommendations.iterrows() %}
                 <div class="film-container">
